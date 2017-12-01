@@ -1,0 +1,504 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Lastādija</title>
+<link rel=stylesheet href=index.css>
+<link rel=stylesheet href=https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css>
+
+<div id=app>
+  <video loop autoplay></video>
+  <h1>Loading...</h1>
+  <select>
+    <option value=lv>Latviski</option>
+    <option value=ru>Русский</option>
+  </select>
+  <div id=map-screen>
+    <div id=map></div>
+    <div id=map-glass></div>
+  </div>
+  <div id=box>
+    <div id=story></div>
+    <nav></nav>
+  </div>
+</div>
+
+<div id=stories style="display: none">
+<article data-spot=TheDaugavaSwimmingSpot>
+<section data-lang=lv>
+<p>Improvizēto peldvietu Spīķeru promenādē var atpazīt pēc zīmes, ko varētu tulkot kā "Uzmanību, šeit var iekrist ūdenī". Karstās vasaras dienās zīme vilināt vilina izvēlēties šo, iespējams, ne-vietu par savu Rīgas centra peld-vietu, kas pavisam netīši aprīkota ar gandrīz izcilu infrastruktūru - tā ir viegli pieejama, bet tai pat laikā no pārējās promenādes noslēgta kabata. Iespējams, lielākais peldvietas bonuss ir skats uz pilsētu, īpaši agros rītos vai naksnīgas peldes laikā.
+
+<p>Šai vietai nav adreses, bet to var atpazīt pēc zīmes, ko ar draugiem tulkojam "Uzmanību, šeit var iekrist ūdenī". Karstās vasaras dienās strādājot pavisam netālu nelielā birojā, nereti esam sekojuši zīmes vilinājumam un šo varbūt ne-vietu izvēlējušies par savu Rīgas centra peld-vietu.
+
+<p>Peldvieta ir pavisam netīši aprīkota ar gandrīz izcilu infrastruktūru. Tā ir viegli pieejama, bet tai pat laikā no pārējās krastmalas promenādes noslēgta kabata. Vienā stūrī atrodama ērta vieta, kur pārģērbties, un lietus gadījumā mantas nolikt zem tilta. Ūdenī mesties var, lecot no paaustinājuma, savukārt mierīgākas peldes meklētāji var upē iemērcēties, nokāpjot pa kāpnēm.
+
+<p>Iespējams, lielākais peldvietas bonuss ir skats uz pilsētu, īpaši agros rītos vai naksnīgas peldes laikā. Šī ir lieliska peldvieta randiņam, ja pāris ir pietiekami atbrīvoti un meklē neparastu pieredzi. Vienīgā ekstra, ko vēl varētu vēlēties, ir duša, bet tādā gadījumā, lai iederētos peldvietas kanonā, tai droši vien vajadzētu būt auto mazgāšanas šļūtenei vai kam tamlīdzīgam.
+
+<p>Interesanta parādība/īpašība ir arī kanāla bipolārā daba - lai arī mūsu pieredzē ūdens pārsvarā plūst no Daugavas kanālā un tālāk tirgus virzienā, reizēm vēja un laikapstākļu dēļ peldvieta kļūst par Vecrīgas un "Rīgas vēsturiskā centra" atraugu. Tad ūdens virsma ir noklāta ar putām un visdažādākajām drazām, kuras tiek izskalotas no kanāla. Šādas atrugas gadījumā var paiet nedaudz prom no kanāla iztekas.
+
+<p>Tās pāris reizes, kad, svelmes mudināts, esmu centies iepazīstināt peldvietu ar jauniem cilvēkiem ar, izrādās, nedaudz augstākiem higiēnas standartiem, izmantoju frāzi: "Gangā taču cilvēki arī peldas".
+
+<p>Peldēties ir forši, vajag peldēties.
+
+</section>
+<section data-lang="ru">
+<p>Импровизированное место для купания на променаде возле Спикери можно опознать по знаку. Изображение скользящего в реку человечка можно прочитывать так: «Внимание, здесь вы можете упасть в воду». В особо жаркие дни знак манит и привлекает использовать не-место-для-купания, в качестве своего места для купания в центре Риги. Причем оно обладает выдающейся инфраструктурой, потому что легко доступно, но в тоже самое время отделено от остального променада в своеобразный карман. Возможно, самый большой плюс — это вид на город, особенно ранними утрами или во время ночных купаний.
+
+</section>
+</article>
+<article data-spot=SpekaStreet>
+<section data-lang="lv">
+<p>Rīgas īsākā iela - šis arī kartes īsākais stāsts.
+
+</section>
+<section data-lang="ru">
+<p>Самая короткая улица Риги — самый короткий рассказ на карте.
+
+</section>
+</article>
+<article data-spot=MazaKrastaStreet>
+<section data-lang="lv">
+<p>Šī iela pirms Salu tilta un Rīgas HES būvniecības vēl 1960. gados bija Maskavas forštates krastmala. Tagadējās Krasta ielas un tirdzniecības centru vietā bija Daugava un vairākas salas. To labi var redzēt pēc vienlaidu veco ēku frontes, kas iet gar Mazās Krasta ielas pilsētas pusi, jo otrā pusē skalojās viļņi un šūpojās piesietās laivas. Vecā krastmala vēl redzama 1969. gada filmā “Pie bagātās kundzes”.
+
+</section>
+<section data-lang="ru">
+<p>Эта улица была набережной Московского форштадта еще до строительства Островного моста и Рижской ГЭС. На месте нынешних торговых центров на улице Краста была Даугава со своими многочисленными островами. Это хорошо видно по однообразным фасадам зданий, если идешь по Маза Краста со стороны города. Ведь с другой стороны набегали волны Двины, раскачивая привязанные у берега лодки.
+Старый берег Даугавы можно увидеть в фильме 1968 года «У богатой госпожи».
+
+</section>
+</article>
+<article data-spot=TheSpikeriPromenade>
+<section data-lang="lv">
+<p>No Spīķeriem dodoties Daugavas virzienā, skatienam paveras kustīga apkaimes glezniņa - gājēju tunelis itin kā ierāmē nelielu Zaķu salas un Daugavas fragmentu. Spīķeru promenāde pietuvina pilsētu upei un ir iedzīvotāju iemīļota vieta. Te pastaigājas romantiski pārīši, skrien skrējēji, vasarā cilvēki sauļojas un iedzer alu. Pavisam cita Rīgas realitāte. Jau tuvāk Salu tiltam, aptuveni blakus promenādes skeitparkam Daugava sāk vairāk smaržot pēc upes. Tur bieži vien sastopami pilsētas makšķernieki.
+
+</section>
+<section data-lang="ru">
+<p>Одно из любимейших мест местных жителей — променад Спикери, который приближает город к реке. Здесь романтично прогуливаются парочки, снуют бегуны, а летом здесь загорают и пьют пиво. Ближе к Островному мосту, в районе скейтпарка, запах реки усиливается. Именно тут чаще всего можно встретить рыбаков. Александр говорит, что его влечет водная стихия — она несет хорошую энергию.
+
+</section>
+</article>
+<article data-spot=Stadions>
+<section data-lang="lv">
+<p>Pareizāk sakot, “stadioni” ir divi - pa vienam apaļam, uzbrauktuves ieskautam zālienam katrā Salu tilta pusē. Stadionus tā dēvē lielo lampu dēļ, kas līdzīgas tām, ar kādām apgaismo arī futbola mačus. Zālē redzamas iestaigātas taciņas. Cilvēki te ved staidzināt suņus, tomēr pārsvarā izmanto šo vietu, lai pārvietotos tai cauri, nevis uzkavētos. Pārsteidzoši, bet stadiona vidū augošo bērzu puduris un viegli hipnotizējošās apkārtbraucošās automašīnas piešķir vietai īpatnēji mierīgu noskaņu.
+
+<article data-spot=Agroprojekts>
+<section data-lang="lv">
+<p>Iebraucot centrā pa Salu tiltu vai Krasta ielu, šo iespaidīgo postmodernisma arhitektūras pieminekli nevar nepamanīt - tas ar savu savdabīgo, šokolādes kūkas fasādi drosmīgi ieņem vietu ainavā līdzās Zinātņu akadēmijai un Vecrīgas silueta dominantēm. Kādreiz pēc Agroprojekta darbinieku rasējumiem visā Latvijā tapa kolhozu, kultūras namu un lauku skolu projekti, taču kopš 2000. gadu sākuma šeit svilpo vējš un ēkas skatiens pilsētā ir tukšs. Arhitekts Juris Monvīds Skalbergs par šo izcilo ēku saņēma balvu, tomēr nams no Krasta ielas puses tā arī netika pabeigts.
+
+</section>
+<section data-lang="ru">
+<p>Здание, некогда издававшее мерный гул улья, где и из-под чертежей «пчел-труженников» выходили проекты колхозов, домов культуры и сельских школ, с 2000 года взирает на прохожих потухшими глазницами. Центр архитектурных решений Советской Латвии «Агропроект» открывается во всей красе со стороны Островного моста и ул. Краста. За этот памятник постмодернизма известный архитектор Юрис Монвидс Скалберг в свое время получил приз, однако здание со стороны Даугавы закончено не было.
+
+</section>
+</article>
+<article data-spot=TheTunnel>
+<section data-lang="lv">
+<p>Mazākais, vientuļākais un skaistākais tunelis Rīgā, jo tā galā ir gaisma. Arī īsākais ceļš līdz Daugavai Elijas ielas rajonā. Tunelītis un tā turpinājums zem Salu tilta ir lielisks skrējiena maršruts, kas labā laikā var finišēties Lucavsalā ar peldi Daugavā.
+
+</section>
+<section data-lang="ru">
+<p>Самый маленький, одинокий и красивейший туннель в Риге, ведь в конце него — свет. Это самый короткий путь до Даугавы в районе улицы Элияс. Туннель и его продолжение под Островным мостом — отличный маршрут для бега, который, при хорошей погоде можно завершить на Луцавсале и искупаться в Даугаве.
+
+</section>
+</article>
+<article data-spot=TheVeraMuhinasMemorialHouse>
+<section data-lang="lv">
+<p>Nav pierādīts, bet visi zina, ka bez slavenās skulptūras “Strādnieks un kolhozniece” Vera Muhina radījusi arī graņonkas glāzes dizainu un uzreiz pēc 2. pasaules kara paglābusi sava drauga, tēlnieka Kārļa Zāles veidoto Brīvības pieminekli no nojaukšanas. Leģendāra ir ne vien pati Vera Muhina, bet arī viņas dzimta, Lastādijā ietekmīgi tirgotāji. “Ar Muhinu kaņepāju tauvām var no jūras dibena ne vien vali, bet arī nogrimušu kuģi izvilkt,” sprieda jūrnieki Rīgas ostā. 1876. gadā Muhini uzcēla namu Turgeņeva ielā 23/25, un šeit, otrajā stāvā, 1889. gadā piedzima mazā Vera. Bijušajā sarga istabā tagad izveidots neliels memoriāls, veltīts Veras Muhinas dzīvei un daiļradei. Šeit arī tagad mēdz sēdēt trīs durvju sargi, ļoti ieturēti iedzerot atvēsinošus dzērienus slavenās tēlnieces materiālu, dokumentu un darbu ielenkumā.
+
+</section>
+<section data-lang="ru">
+<p>Нет точных свидетельств, но все знают, что без скульптуры «Работник и колхозница» Вера Мухина не смогла бы предотвратить снос памятника Свободы после Второй мировой. Легендарной была не только Мухина, но и ее семья - влиятельные торговцы, обосновавшиеся в Ластадии. «Канатом из мухинской пеньки можно вытянуть со дна морского не только кита, но и потонувший корабль» — говорили моряки в рижском порту. В 1876 году Мухиными был построен этот дом и здесь, на втором этаже, в 1889 году, родилась маленькая Вера. Сбоку, с улицы Риепниеку за каштаном, находятся окна комнаты, прозванной «Вериной светлицей».
+
+</section>
+</article>
+<article data-spot=VingrumaClub>
+<section data-lang="lv">
+<p>Pārsteidzoši plaša, tīra un draudzīga vieta visa veida sportam. Vingruma klubā saimnieko sportiskā Āžu ģimene, un var teikt, ka šī vieta turpina darbīgo, apkaimē sakņoto dzimtas uzņēmumu tradīciju - ģimene stāvējusi pie LNT, pirmās komerctelevīzijas Latvijā, šūpuļa, bet tagad turpat pagalmā aiz LNT biroju ēkas izveidojuši Vingruma klubu. Āžu ģimene ir kaislīgi iemīlējuši slapjo pirti. Ozola slotiņas šeit, piemēram, ir no īpašnieku laukiem. Te var patverties, aizmukt no ikdienas kņadas un pieredzēt īstu latviešu pirts rituālu meistara vadībā. “Kad pirmo reizi pēc pēriena viņš mani peldināja baseinā, aiz laimes pamīšus smējos un raudāju. Jo lidoju.” Tikai vietējie zina, ka te īpaši izdevīgi nākt ir darbdienu vidū, kad cilvēku maz un cena samazināta uz pusi.
+
+</section>
+<section data-lang="ru">
+<p>Удивительно просторное, чистое и дружелюбное место для всех видов спорта. Заправляет всем семья Азисов и можно смело сказать — они продолжают давнюю традицию Ластадии — некогда здесь выросли многие династии, которые поколениями занимались прибыльной торговлей. Отец семейства был основателем первого в Латвии коммерческого телевидения LNT, а теперь вместе с дочкой открыл Vingruma klubs. Семья Азисов — страстные любители паровой бани. Дубовые веники здесь изготовлены самим хозяином. Здесь можно укрыться, смыться от повседневной суеты и насладиться ритуалом настоящей латышской бани под руководством мастера.
+
+</section>
+</article>
+<article data-spot=TheBusStation>
+<section data-lang=lv>
+<p>“Runā, ka Pāvels Globa, kad bija šeit, nosaucis šo par ļoti sliktu vietu,” pusčukstus izdveš satiktā darbiniece. No autoostas vēl intriģējoši vēdī padomju laika smaržas, taču arī nelielā renovācija tai noteikti nākusi par labu. Varbūt Globam bija taisnība, bet varbūt arī ne. Grūti spriest, jo viss tomēr atkarīgs “kā paskatās”. Katrā ziņā autoosta līdztekus Centrālajai stacijai ir Rīgas transporta sirds.
+</section>
+<section data-lang="ru">
+<p>«Говорят, что Павел Глоба когда был здесь, сказал, что это очень плохое место» — поведала украдкой работница. От автостанции еще пахнет советскими временами, но небольшая реновация несомненно пришлась ей к лицу. Может Глоба и был прав, а может и нет. Судить сложно, ведь все зависит от того, «как посмотреть». Люди выбирают автобус в противовес железной дороге и на вопрос почему, отвечают риторически: "А насколько много у поездов осталось направлений?". Кроме того со второго этажа в кафетерии открывается невообразимый вид на городской канал, а также на изгибы павильонов Центрального рынка.
+
+</section>
+</article>
+<article data-spot=DagdasStreet>
+<section data-lang="lv">
+  <p>Neticēsiet, bet arī Lastādijas apkaimē ir sava mazā Alberta iela. Kādu dienu visas ielas māju fasādes būs atjaunotas un Dagdas iela iemirdzēsies savā patiesajā skaistumā.
+
+<p>Dagdas ielā dzīvo uzņēmīgi kaimiņi, kas apvienojušies iniciatīvā uzlabot savu apkārtējo vidi. Viņi prot arī svinēt un vienā no mājām nesen sarīkojuši pirmos pagalma svētkus - ar veselu bigbenda koncertu.
+
+</section>
+<section data-lang="ru">
+<p>Сложно поверить, но в Ластадии есть своя улица Альберта. Когда-нибудь все фасады зданий на этой улице обновят и она засияет во всей красе. Здесь живут деятельные люди, которых объединяет желание улучшить окружающую среду. Они также не против торжеств и в одном из домов недавно организовали праздник во дворе — с концертом настоящего бигбенда.
+
+</section>
+</article>
+<article data-spot=TheNightMarket>
+<section data-lang="lv">
+<p>Vilinoša svaigu dārzeņu un ogu smarža ar neticami dzīvīgu pircēju drūzmēšanos zem klajas debess. Piesātinātajā vasaras krēslā nelielā, bet smaržu un sarunu piesātinātā ieliņa ir tuvākā pieredze Honkongas naktsdzīvei, kādu Rīgā var dabūt. Vēl tikai čut čut vairāk neona gaismu, hieroglifu un pa kādam pūķa attēlam šur un tur. Nakts ir tumša un pilna mošķu, taču, nākot pa tumšajām šķērsieliņām no gulēt aizgājušās pilsētas, nakts tirgus atklājas skatītājam pilnā spozmē. Dienā un arī naktī atvērta kafejnīca “Liman”, kur kompleksās pusdienas maksā 2,70 un letē gozējas īstas, rokām taisītas, ar sviestu apsmērētas lašmaizes, ķilavmaizes, desmaizes vai ko vien citu mājās varētu maizei uzlikt.
+
+</section>
+<section data-lang="ru">
+<p>Ночь темна и полна ужасов но, заворачивая из темных закоулков и, погасших после дневной работы прилавков, перед зрителем во всей красе открывается блеск ночного рынка. В сгущающемся сумраке, небольшая, но насыщенная запахами и перессудами толпа, отдаленно напоминает скольжение по улицам Гонконга красно-золотого азиатского дракона.
+
+</section>
+</article>
+<article data-spot=TheIndustrialGoodsMarket>
+<section data-lang="lv">
+<p>Lielā Centrāltirgus mazliet klusākais un savdabīgais brālis, kura mūžs līdzšinējā veidolā tuvojas noslēgumam. Vasaras beigās tirgus pārdevējām vienmēr ir skaisti, eksotisku dienvidu salu cienīgi iedegumi, kas iesauļoti tepat Rīgas centra komerciālajā lagūnā. Rūpniecības tirgus karaļi gan šeit ir kaķi - Keša, Liza, Max un vēl bariņš. Tirgus sievas viņus izmitina, baro, ķemmē un apmīļo.
+
+</section>
+<section data-lang="ru">
+<p>Промтоварный рынок — тихий и самобытный брат Большого Центрального рынка, чей век, в его первозданном виде, подходит к концу. Здесь, в коммерческой лагуне, в самом центре Риги, к концу лета у продавцов появляется красивый загар словно они прибыли с южных экзотических островов. Но короли промтоварного рынка — коты! Они обласканы вниманием торговцев, последние дают им приют, подкармливают и расчесывают.
+
+</section>
+</article>
+<article data-spot=ThePushkinStreetPrintShop>
+<section data-lang="lv">
+<p>Viena no apkaimes tukšajām ēkām ar vairāk nekā 5000 kvadrātmetru lielu potenciālu. Tipogrāfijā starpkaru laikā kaltas pirmās latu monētas, un uz fasādes joprojām saredzama Valsts papīrspiestuves emblēma.
+
+</section>
+<section data-lang="ru">
+<p>Одно из пустующих зданий с большим потенциалом — площадь его более 5000 кв.м. Во времена первой Латвийской республики здесь чеканили первые латовые монеты. На фасаде здания до сих пор видна эмблема Государственного печатного двора.
+
+</section>
+</article>
+<article data-spot=Pushkin11>
+<section data-lang="lv">
+<p>Bijušajā A/S “Rīgas Dzirnavnieks” fabrikas administrācijas ēkā pēc gadiem ilgas pamestības veidojas sociālo un kultūras aktivitāšu centrs. Tagad ēku sakopuši un tajā dienām (un naktīm) strādā dažādi mākslinieki un sabiedriskas organizācijas. Fabrikas hierarhijas aizstājusi pašiniciatīva un vēlme radīt, mēģinot kaut ko šajā pasaulē padarīt labāku. Te ir arī brīvbode jeb frīšops - atnāc paņem, ko vajag, vai atstāj kādas nevajadzīgas mantas, kas varētu noderēt citiem. Šī ir pirmā tukšo ēku atdzīvināšanas kustības “FREE RIGA” atvērtā darbnīcu māja.
+
+</section>
+<section data-lang="ru">
+<p>В бывшем административном здании фабрики Rīgas Dzirnavnieks после, годами длящегося запустения, образовался центр социальной и культурной активности. Большую часть производственных зданий завода снесли в середине 2000 года. В результате чего образовалась широкая заросшая площадка, хорошо известная хозяевам собак на пересечении улиц Маскавас, Пушкин и Тургенева. Но административное здание, которое осталось без воды и отопления, полностью оставили лишь в 2010 году, когда здесь еще обитала гадалка и другие зайтейливые арендосъемщики. После пяти лет запустения, здание привели в порядок и, с тех пор, здесь днем (и ночью) работают различные художники и общественные организации. Четкость и прямолинейность фабричной жизни сменились свободой личной инициативой и желанием творить, попыткой улучшить окружающую жизнь. Здесь можно найти freeshop или бесплатный магазин - приходи и бери, что нужно или, по желанию, можно оставить какую-то ненужную вещь, которая может пригодиться другим. Это первое здание, открытое движением Free Riga, которое занимается поиском заброшенных домов и дает им второе дыхание.
+
+</section>
+</article>
+<article data-spot=SviestaPika>
+<section data-lang="lv">
+<p>Aiz privātas autostāvvietas, kuru gadiem pārvalda tas pats uzraugs, atrodas kafejnīca “Sviesta pika”, ko īpaši iecienījuši autoskolu instruktori - un autoskolu šajā apkaimē nav maz. Sviesta pikā var ieskriet pēc zupas, kafijas vai pusdienu piedāvājuma par labu cenu - te mēdz būt izvēle starp soļanku un mājas soļanku. Atrast Sviesta piku ir vienkārši - mājiņā viscaur dzeltenā kā sviesta pika, protams.
+
+</section>
+<section data-lang="ru">
+<p>За частной стоянкой на углу Элияс и Пушкина, которая принадлежит многие годы одному и тому же хозяину, находится кафе Sviesta pika («Кусок масла»). Кафетерий особенно ценят инструкторы из автошкол, благо их тут немало. В Sviesta pika можно забежать за супом, кофе или обеденным предложением за хорошую цену - можно выбрать между солянкой и домашней солянкой. Хорошее место вести разговоры и другого места искать не нужно – и тут хорошо. Найти кафе просто – домик такой же желтый, как и кусок масла.
+
+</section>
+</article>
+<article data-spot=TheSoyShop>
+<section data-lang="lv">
+<p>Veikals “Sojas produkti” neapžilbina ar spilgtām reklāmām. Gluži pretēji, tā skatloga dizains ir atturīgs un vienkāršs, un logus mūžīgi klāj ar uzrakstu virs durvīm saskaņotas brūnas žalūzijas. Tomēr saturs atbilst solītajam - sojas, bezglutēna produkti un cita pārtika. Veikals apkaimē ir ilgdzīvotājs, un, ja internets nemelo, šeit nopirkt sojas un bezglutēna produktus var jau kopš 1994. gada.
+
+<p>Veikala interjers arī ļoti atturīgs - vienkāršs, bet plašs. Veikalam ir augsti griesti, un pēc iekārtojuma un flīzēm varētu domāt, ka padomju laikos tas bijis kādu īpašu preču veikals. Nelielos Rīgas veikalos arī citur apkaimē redzētais dalījums divās daļās ar divām kasēm, starp kurām nereti manevrē viena un tā pati pārdevēja (būtu interesanti noskaidrot, kāpēc divas kases ir izdevīgas, vajadzīgas). Pirmajā pusē iespējams iegādāties atlasītus, bet diezgan ierastus pārtikas produktus, kurus varētu iegādāties parastā 9m2 "rajončika" veikaliņā, bet otrā veikala pusē plauktos un ledusskapī ir izvietoti dažnedažādi parastam latvietim eksotiski produkti: sojas pupiņas, dažādu izmēru sojas gabaliņi, garšvielas, ledusskapī blakus bezglutēna parastiem cīsiņiem var atrast tofu ar visdažādākajām garšām, sojas cīsiņus, augu pastētes utt.
+
+<p>Veikals ir ilgdzīvotājs un pēc neilgas interneta izpētes tas sevi atklāj kā pionieris augu valsts pārtikas produktiem Rīgā un Latvijā kopš 1994. gada, ja var ticēt Lursoft pieejamajai informācijai. Daudz ilgāk nekā apkaimes jaunpienācēju Dzīvnieku draugu organizācija "Dzīvnieku brīvība" turpat netālu Puškina ielā 11.
+
+<p>Lai arī tā redzamībā un apjomā veikalu ir grūti salīdzināt ar ZInātņu Akadēmiju vai Latgalīti, tomēr man šķiet, ka šis veikals ir viena no vietām, kas raksturo un runā par apkaimi un dod labu izpratni par apkaimes atmosfēru. Vai vismaz tās šķautni.
+
+</section>
+<section data-lang="ru">
+<p>Магазин не ослепляет яркими рекламами. Совсем наоборот — дизайн витрины сдержанный и обычный. Но содержание соответствует обещанному - соя, безглютеновые и другие продукты. Если верить интернету, то этот магазин можно по праву назвать долгожителем здешней округи, потому что соевые и безглютеновые продукты здесь можно было приобрести уже в 1994 году.
+
+</section>
+</article>
+<article data-spot=Idioma>
+<section data-lang="lv">
+<p>Pārtikas produktu veikals Maskavas ielā, tieši pie tramvaja pieturas “Turgeņeva iela”. Ap 2000. gadu veikalā vēl bija vairākas pārdevējas, neliels bāriņš, vienmēr vietējo iedzīvotāju mīlēts. Vietējie iedzēra, pārdevējs piedāvāja plašu zivju produkciju. Pēdējos piecus gadus ikdienas valodā tas kļuvis par “veča veikalu” - tagad veikala īpašnieks strādā viens un nīgri klibo ap leti. Runā, ka nekas tāds nav redzēts ne Ukrainā, ne Baltkrievijā. Veča veikalam piemīt savdabīga smarža. Pārdod viņš alkoholu un lētus pārtikas produktus, reizēm atlikumā izdod pārāk maz, reizēm par daudz. Brikešu cenas veikalā mēdz būt atkarīgas no termometra stabiņa.
+
+</section>
+<section data-lang="ru">
+<p>Продуктовый магазин на ул. Маскавас, прямо возле остановки трамвая “Улица Тургенева”. Примерно в начале 2000-х здесь было множество продавцов, небольшой бар, который нравился местным . Они выпивали, продавец предлагал широкий ассортимент рыбных продуктов. За последние пять лет этот магазин на местном наречии превратился в “магазин старика” - владелец его теперь работает в одиночку и сердито ковыляет вокруг прилавка. Многие отметили, что такого они не видали ни в Украине, ни в Беларуси. Магазину присущ особый запах. Старик продает алкоголь и дешевые продукты, одним дает слишком маленькую сдачу, а кому-то больше, чем нужно. А цены на связки с дровами в магазине зависят от столбика термометра.
+
+</section>
+</article>
+<article data-spot=ThePan>
+<section data-lang="lv">
+<p>Apaļais skvērs pie dzelzceļa stacijas pretim Satiksmes ministrijai – neformāla bezpajumtnieku un brīvu klaidoņu tikšanās un informācijas apmaiņas vieta, saukta par pannu (“skovoroda”). Kad mobilie telefoni bija ne gandrīz katram bezpajumtniekam, te gan apmainījās ziņām par to, kurš pazudis, kurš miris, cietumā vai slimnīcā, gan sastiķēja, gan dabūja, ko kuram vajadzēja, gan uzzināja par palīdzību – kur ko var dabūt, kur kas slēgts, kad māsas Terēzes organizē braucienu uz Bruknu. Tepat arī policija savāc “sagurušos”.
+
+</section>
+<section data-lang="ru">
+<p>Круглый сквер у центральной станции напротив Министерства сообщения — место встречи бездомных и свободных бродяг для обмена информацией. Небольшой парк зовется «сковородкой». В то время, когда не у каждого бездомного был телефон, именно здесь они обменивались информацией о том, кто пропал, умер, в тюрьме или больнице. Тут скидывались на алкоголь, добывали что нужно, узнавали о помощи — где что можно достать, где что закрыто и когда сестры милосердия организуют поездку в Брукну. Здесь же полиция подбирает «утомившихся».
+
+</section>
+</article>
+<article data-spot=CafeRosemary>
+<section data-lang="lv">
+<p>Pēc nosaukuma nepateiksi, ka šīs kafejnīcas interjerā dominē doriskās un joniskās grieķu kolonnas. “Rozmarīns” ir vieta ar attieksmi, to atklās katrs vērīgs apmeklētājs. Klusā rītā stāvot pie letes, no virtuves dzirdamas pavāru un konditoru dzīvīgās sarunas. Pati saimniece saka, ja cilvēks vēloties paēst, viņam te vienmēr tiks kaut kas pasniegts - kartupeļi ar rozmarīnu, piemēram.
+
+<p>Šī kafejnīca visticamāk radīs interesi un izbrīnu ikvienam apmeklētājam. Pēc nosaukuma Rozmarīns nepateiksi, ka kafejnīcas interjeru sastāda, galvenokārt, flīzētas grīdas un grieķu kolonnas. Iekārtojums palicis no laika, kad telpas bija daļa no pirts kompleksa. Taču tas neliedz kafejnīcā norisināties nepārtrauktai darbībai – telpā uz galdiem ir novietotas vairākas kastes ar smalkmaizītēm, ik pa laikam ierodas piegādātājs un pasūtījumu saņēmēji. Tikmēr aiz atvērtajām virtuves durvīm dzirdamas pavāru un konditoru dzīvīgās sarunas. Arī ledusskapis ir piepildīts ar dažādām kūciņām un smalkmaizītēm, ko iespējams iegādāties uz vietas un pasūtīt. Kā nojaušams, uzņēmums darbojas, galvenokārt, uz pasūtījumiem. Par to liecina arī reto apmeklētāju skaits. Ja neesi viens no patstāvīgajiem pusdienu apmeklētājiem, Tava ierašanās varētu tikt nopētīta, iespējams, teju ar izbrīnu. Taču pusdienu piedāvājumā, ko Jums labprāt pasniegs arī krietni vēlāk par pusdienlaika, iespējams tikt gan pie pirmā, gan otrā ēdiena. Ja nu izdodās sastapt jautro un dzīvīgo kafejnīcas īpašnieci, var novērot aizrautību un degsmi ar kādu uzņēmums tiek vadīts – tas vien rada pozitīvu gaisotni, kas virza uz tālāku attīstību.
+
+</section>
+<section data-lang="ru">
+<p>По названию и не скажешь, что в интерьере этого кафе доминируют греческие колонны дорического и ионического стиля. "Розмарин" - место с "изюминкой" и это отметит каждый наблюдательный посетитель. Тихим утром, стоя у прилавка, из кухни доносятся оживленные разговоры поваров и кондитеров. Сама же хозяйка говорит, что если человек хочет поесть, то у них найдется нечто особенное для каждого. Например, картофель с розмарином.
+
+</section>
+</article>
+<article data-spot=TheCentralMarketStands>
+<section data-lang="lv">
+<p>Viens no galvenajiem iemesliem, kāpēc labi dzīvot Lastādijā. Starp pieciem pārbūvētiem cepelīnu angāriem ik dienu mutuļo garšas, smaržas un cilvēku pūļi, kas zina, kur, kas un par cik atrodams. Te ir sava pašsaprotama  kārtība, pārdevējiem balsis skaļas un cenas - tikai tās labākās. Katrai precei beigu beigās atrodas savs pircējs - gan kontrabandas cigaretēm, gan tūristu suvenīriem, gan puķu pārdevējas Ogrē audzētajām puķēm, ko katru rītu uz tirgu viņa ved ar vilcienu.
+
+<p>Rīgas centrāltirgus ir vieta, kas pilna pārsteigumu. Gan sajūtu un notikumu, gan preču un pakalpojumu daudzveidība, kas, ja dodies turp bez konkrēta mērķa, tevi ierauj kā tādā skaņu, garšu, smaržu un krāsu virpulī. Arī tur sastopamie cilvēki, katrs ar savu stāstu, sākot ar ratiņstūmēju, kurš cenšas izlavierēt pūlī un, turpinot ar nelegālo cigarešu, zāļu tēju, adītu zeķu, video kasešu, apakšveļas un velosipēdu kameru tirgotājiem un visiem pārējiem, apmeklētājiem, garāmgājējiem un darbiniekiem. Tirgota tiek ne tikai milzīgos komercuzņēmumos saražotā prece, bet arī cilvēka sirdslietas radīts produkts, kā piemēram, adījumi, ziedi un dažādi augļi. Iespējams, tirgus identitāte meklējama tieši tajā daudzveidībā, jo reti kura vieta sevī spēj sapulcināt tik dažādus cilvēkus, lietas, produktus un pakalpojumus. Tā nav viens veselums, bet sastāv no daudzām ikkatra veidotām daļiņām.
+
+</section>
+<section data-lang="ru">
+<p>Одна из главных причин, почему хорошо жить в Ластадии. В вихре вкусов, ароматов и круговерти товаров — люди знают где, что и почём и найти. Под сводами бывших стоянок для дирижаблей жизнь течёт своим чередом, продавцы громкие, а цены - самые выгодные. Каждый товар в конце концов находит своего покупателя — и контрабандные сигареты, и сувениры для туристов, и выращенные в Огрэ цветы, которые каждое утро продавщицы привозят на рынок на поезде.
+
+</section>
+</article>
+<article data-spot=TheOrthodoxChurch>
+<section data-lang="lv">
+<p>Pāri ielai, pie policijas iecirkņa ēkas Gogoļa un Turgeņeva ielu krustojumā sēž vīrs un vēro putniņus. Viņš te nāk “katru dienu - desmit gadus jau.” Pareizticīgo krusts uztetovēts uz vidējā pirksta, vīrietis apliecina, ka brīvdienās cilvēku nāk maz. “Bet svētku dienās, jā – tad gan nāk.” Otrpus ielai baznīcas darbiniece gan par apmeklētāju daudzumu nesūdzas. Un nākot ne tikai pareizticīgie, bet arī luterāņi un katoļi. “Jo viņiem sveces tur savās baznīcās likt nav kur, un pasūtīt lūgšanas par drošību un veselību viņi nevar. Tāpēc viņi nāk šeit. Citās baznīcās tā neļauj, bet pie mums ļauj. Vot tā!”
+
+</section>
+<section data-lang="ru">
+<p>На противоположной стороне, у полицейского участка на перекрестке улиц Гоголя и Тургенева сидит мужчина. Он наблюдает за птицами и на среднем пальце руки виднеется татуировка православного креста. Он приходит сюда «каждый день — уже десять лет» Мужчина заметил, что в выходные людей немного. «На праздники, да, тогда толпами». Но работница церкви на количество посетителей не жалуется. Приходят не только православные, а католики и лютеране. «Им там свечки в своих церквях ставить некуда, и заказать молебен о здравии и панихиду они не могут. Поэтому они приходят сюда. Вот так!».
+
+</section>
+</article>
+<article data-spot=TheCentralMarketShoemaker>
+<section data-lang="lv">
+<p>Runā, ka apkaimē un, iespējams, Rīgā labākā un izdevīgākā kurpniekdarbnīca! Ilgu laiku strādājusi dažādās vietās Turgeņeva ielas rajonā, tagad darbnīca pārcēlusies uz Spīķeru ielu 3 Centrāltirgū.
+
+</section>
+<section data-lang="ru">
+<p>Говорят, что это самая лучшая мастерская не только в этом районе, но и, возможно, во всей Риге! Долгое время сапожник работал в разных местах на улице Тургенева, но сейчас он переехал в Центральный рынок и обитает по адресу улица Спикеру 3.
+
+</section>
+</article>
+<article data-spot=TheFreeRigaNeighborhoodResidence>
+<section data-lang="lv">
+<p>Neuzkrītoša, teju 200 gadus veca divstāvu dzīvojamā ēka, kurai kaimiņu uzmanību piesaista pie sētas pieslēgtie ērmriteņi. Mājas otrais stāvs pēc pieciem tukšiem gadiem ir ieguvis otro elpu - tur tagad apmetušies Free Riga rezidenti, kas veido šo apkaimes karti, sapņo labiekārtot blakus esošo graustu galeriju un atvērt citas apkaimes tukšās ēkas vietējām iniciatīvām.
+
+</section>
+<section data-lang="ru">
+<p>Скромному, двухэтажному жилому дому перевалило за двести лет. После пятилетнего запустения второй этаж здания получил второе дыхание —  здесь пребывают резиденты Free Riga, которые причастны к созданию данной карты. Внимание соседей привлекает фрикбайк, подвешенный к забору. Постепенно этот дом и его обитатели преобразовывают все больше пустых зданий в округе для местных инициатив. Кроме того, они мечтают о том, чтобы привести в порядок небольшой дворик возле дома.
+
+</section>
+</article>
+<article data-spot=Latgalite>
+<section data-lang="lv">
+<p>No skaidu plāksnēm un plastmasas plēvēm būvētās paralēlajās realitātēs birokrātijai ir pārāk auksti. Savas dzīves karaļi jums sagādās visu - no akumulatora lādētāja līdz vientuļa zaldāta dienasgrāmatai. "Tā jau mums viss ir labi, un narkomānu te nav," viņš bilst un noslauka biksēs no rokām pilošo motoreļļu.
+
+<p>"Esmu pārtraukumā. Būšu tad, kad atgriezīšos"" vēstī sarkana zīme līdzās gāzmaskām, kas akurāti sarindotas uz riepu kaudzes. Klusums ir mānīgs – tepat aiz stūra kāds skatās televizoru, bet vēl aiz nākamā jau kūsā dzīvība. Darījumu krustpunktā rosās tirgonis. "Es šeit esmu jau kopš pirmās dienas", viņš saka, un pārlaiž acis savai impērijai. Pareizs biznesa piegājiens ir tāds, ka, jo mazāk pircēju paliek, jo vairāk preces jāpiedāvā – lai cilvēkiem ir interesanti. Reizēm, ziemās, mīnus trīsdesmit grādos sasalst kafija, bet no skaidu plāksnēm sanaglotajā daudzistabu mītnē valda atmosfēra, kas pielīdzināma Grīga "Kalnu karaļa alā". Mantas te dzīvo pašas savu dzīvi – kaut kas pazūd, kaut kas negaidīti atrodas, kaut kas tiek samainīts, un nav dzīvas būtnes, kas tam spētu izsekot.
+
+<p>Jauni kolēģi te tiek gaidīti, bet nosacījums ir viens – netirgot to, ko var nopirkt "Depo", jo tam neesot jēgas. Jāpiedāvā interesantas mantas – tādas, kuras gribas gan nopirkt, gan vienkārši apskatīt. Par drošības apsvērumiem arī jāuztraucas nav - vērtīgākas mantas nakts laikā iespējams sabāzt uz jumta. Kā sākt? Kur iegūt mantas, ko piedāvāt pirkt kārajiem? Mantu sagādniekus, kuri ir katra tirgoņa palīgs un apgrūtinājums vienlaikus, iespējams atpazīt pēc tā, ka tiem rokās ir lieli maisi. Kāds pieklājīga paskata kungs no maisa izvelk pamatīgu zupas kausu, sitot sev pa galvu un reklamējot: "Tukša muca tālu skan! Pavei', šitais ir smags, tas ir īsts pašaizsardzības ierocis!". Garantēts ir viens – "Latgalītē", gan kā pircējs, gan kā tirgotājs, pats esi sev karalis. Līdz kādai summai nokaulēsi – tik arī maksāsi. Dāma, kura tirgo retro traukus, priekšpusdienā jau vācās nost, jo laiks ārā nav labs: "Čau!", viņa nosaka un dodas prom.
+
+<p>Cilvēks "Latgalītē" tiek gaidīts, un viss cilvēciskais "Latgalītē" ir cieņā. "Vajag darīt! Nevajag iznīcināt "Latgalīti", vajag to atdzīvināt!", saka kāds tirgonis, kas atbalstījies pret Rīgas Domes pērn finansēto plastmasas kiosku.
+
+</section>
+<section data-lang="ru">
+<p>Среди построек из ДСП и полиэтиленовой пленки бюрократии из параллельной вселенной слишком холодно. Хозяева своей жизни обеспечат вас всем — от аккумулятора до дневника одинокого солдата. «Здесь у нас всё хорошо и наркоманов здесь нет», объясняет один из местных, вытирая о штаны, капающее с рук моторное масло.
+
+</section>
+</article>
+<article data-spot=TheJesusChurch>
+<section data-lang="lv">
+<p>Gandrīz 400 gadu ir pagājuši, pilsētas robežas ir mainījušās, bet dievnams tur turpina stāvēt, nemainīgi piederot luteriskajai draudzei, tikai šobrīd jau citā – savā ceturtajā veidolā, kā lielākā koka baznīca Latvijā. Te senioru smaidi mijas ar mazu bērnu čalām. “Es te nācu un nākšu. Šī ir visskaistākā baznīca. Svēta vieta,” tā izsakās baznīcā sastapta cienījama vecuma kundze.
+
+<p>Pretēji vispārpieņemtajiem kanoniem, Jēzus baznīcas centrālā ieeja tika būvēta nevis uz austrumiem, bet uz dienvidaustrumiem, lai būtu pretī tiem, kas nāca no pilsētas uz priekšpilsētu. Dievnama celtniecības vēstures pirmais nozīmīgākais gads ir 1638. Gandrīz 400 gadi ir pagājuši, pilsētas robežas ir mainījušās, bet dievnams te turpina stāvēt, nemainīgi piederot luteriskajai draudzei. Šī brīža baznīca ir ceturtā Jēzus baznīca šajā vietā, pārstāvot lielāko koka baznīcu Latvijā. Kāda baznīcā sastapta ļoti cienījama vecuma kundze apgalvo, ka “baznīca šeit bija un paliks mūžīgi”, lai arī kādi notikumi tai negājā un neies pāri. Pārliecība viņas balsī neliek apšaubīt viņas teikto, tieši šāds ticīgo spēks, šķiet, ir noturējis un turpina turēt šo dievnamu laika griežos. Baznīca ir iecienīta, baznīcēnu ir daudz. Svētdienas dievkalpojumus apmeklē ap 300 cilvēku, un tas vēl neesot nekas, uz Ziemassvētkiem baznīcā esot tik pilns, ka cilvēki kājās stāv. Apmeklētāji ir dažāda vecuma cilvēki, sākot ar zīdaiņiem, kas čalo baznīcas aizmugurē, un beidzot ar cienījama vecuma senioriem, te visi gaidīti.
+
+</section>
+<section data-lang="ru">
+<p>Прошло почти 400 лет, границы города изменились, но церковь продолжает стоять и принадлежать люте- ранской общине. И если принадлежность остается неизменной, то обличие сменилось уже четыре раза. Это самая большая деревянная церковь Латвии, где улыбки пожилых чередуются с детским лепетом. «Я приходила сюда и буду продолжать ходить. Это самая красивая церковь. Святое место».
+
+</section>
+</article>
+<article data-spot="Pazemes gājēju tunelis zem Gogoļa ielas">
+<section data-lang="lv">
+<p>Viena no daudzajām pazemes ieejām Lastādijas apkaimē, kurai ik dienas cauri izskrien simtiem cilvēku, acis pat nepaceļot. Taču, paraugoties apkārt, var ieraudzīt “visas Latvijas sabiedrības krāsas”, sākot ar steigas pārņemtiem studentiem un beidzot ar ielu muzikantiem un pensionāriem, kas tirgo pašu adītas vilnas zeķes.
+
+<p>Kad laukā ir auksts, cilvēku ir mazāk un esošie vairāk steidzas garām. Ir cilvēki, kam gājēju tunelis zem Gogoļa ielas ir darba un cerību vieta. Kaprona zeķbikšu un zeķu, adītu zeķu, cimdu un šaļļu, kā arī tamborētu pašdarinājumu tirgotāji uzturas šeit pastāvīgi (pat par spīti policijas darbinieku neatlaidīgajiem mēģinājumiem viņus no šīs vietas padzīt). Tuvojoties salam, sievietes pensijas vecumā, kuras nestrādā vai nu invaliditātes vai nesekmīgu darba meklējumu dēļ, šeit cenšas pavadīt, cik vien laika spēj, lai sapelnītu uz priekšu. Katrai no viņām ir sava vieta tunelī, blakus balstiem. Šīs vietas netiek savā starpā mainītas, un, ja ieņem svešu vietu, rodas konflikti. Kā atzina divas no sievietēm, vietai, kur stāv, ir nozīme - visvairāk veicoties tām, kas stāv kādā no tuneļa galiem. Mazbērni un ģimenes ir lielākie prieki viņu dzīvēs, un jūtamas ilgas pēc tuvākajiem. Lielākoties šī distance ir piespiedu kārtā, jo līdzekļi ir pārāk ierobežoti, lai ģimeni un radiniekus apciemotu tik bieži, cik gribētos.
+
+<article data-spot=Deficits>
+<section data-lang=lv>
+<p>Pazudušo mīļlietiņu “Nārnijas skapis” jeb vienkārši “Interesantas lietas un kaķi”. Te saplūst padomju pasaules mantojums un maģiski vecmāmiņu, kolekcionāru un jo īpaši kaķumīļu dārgumi. Kur vēl Rīgā vienuviet atrast mazu kurpīšu un porcelāna leļļu kolekciju, antikvāru maiņas punktu, pašataisītas rotaslietas, mugursomas ar kaķu sejām un romantisku gleznu reprodukcijas kaķu veidolā?
+
+<p>Atverot “Deficīta” durvis, tevi sagaida sludinājumu siena ar asprātīgiem izteicieniem krievu valodā, kas rada smaidu ikviena ienācēja sejā. Katrs var noplēst lapiņu, lai sev atgādinātu par vienkāršajiem dzīves prieciņiem. “Deficīts” ir unikāla vieta, kur var atrast jebko, sākot no kolekcionāru veidotām porcelāna leļļu kolekcijām līdz kaķu mugursomām un hand made rotaslietām. Īpašniece sapņo par pārmaiņām Maskavas ielas rajonā, atceroties laikus, kad Rūpniecības preču tirgus bija dzīvīgāks un arī veikalā viesu bija vairāk. “Deficīta” īpašniece uzskata, ka rajonam ir milzīgs potenciāls, kurš netiekot novērtēts sliktās reprezentācijas dēļ. Īpašnieces pieķeršanās veikalam ir daudz spēcīgāka par biznesa domāšanu. Unikālais retro veikaliņa vispusīgais piedāvājums ir radījis vairāk muzeja, nevis veikaliņa sajūtu. Piedāvājot visu, netiek piedāvāts nekas. Te pat pastāv maiņas tirgus princips - ir iespējams apamainīt savas retro, padomju laiku mantas pret citu atstātām. “Tā ir visa mana dzīve, mans hobijs! Lai gan naudu ar šo nenopelnīsi, man prieks redzēt smaidu cilvēku sejās, piedāvāt unikālas preces! Šis veikals patīk ikvienam, varbūt, izņemot tos Stockmann cilvēkus” smejas īpašniece.
+
+</section>
+<section data-lang="ru">
+<p>Кладовая исчезающих милых вещиц, куда стекаются наследие советских времён и волшебные сокровища бабушек, коллекционеров и особенно любителей котов. Где ещё в Риге под одной крышей найдёшь такую общирную коллекцию фарфоровых кукол и маленьких туфелек, самодельных ювелирных изделий, рюкзаков и репродукций романтической живописи в виде кошек?
+
+</section>
+</article>
+<article data-spot=TheSynagogueMemorial>
+<section data-lang="lv">
+<p>Memoriāls, kurā esošie objekti, vienlaikus pieminot nāvi un dzīvību, ir pretstatā viens otram. Automašīnu troksnis un ebreju glābēju vārdi šeit skan skaļāk par upuru kliedzieniem. “Dzīve iet uz priekšu,” iepazīstinot ar memoriālu, atgādina vietējais rabīns un piedāvā iepazīties ar viņa kabinetā esošajām grāmatām par ebreju iznīcināšanu Latvijā.
+
+<p>Rīgas Lielā Horālā sinagoga dibināta 1871.gadā un tās pastāvēšanas laikā šeit dziedājuši visā pilsētā pazīstami kantori un kori. Neorenesanses stila ēka 1941.gada 4.jūlijā nacistu organizētās akcijas rezultātā ar tajā esošajiem iesprostotajiem ebrejiem un ebreju bēgļiem tika nodedzināta. Ar šo notikumu Latvijā aizsākās holokausts. Objekts laika gaitā pakāpeniski pārveidots: sadegušās drupas nojauca Padomju vara, vēlāk šeit uzstādīts piemiņas akmens ar Dāvida zvaigzni un atklāts memoriāls.
+
+<p>2007.gadā blakus sinagogas drupām tika atklāts piemineklis Žanim Lipkem un visiem ebreju glābējiem holokausta laikā. Latvijas ebreju reliģiskās draudzes „Šamir” vadītājs, rabīns Menahems Barkahans uzsver Žaņa Lipkes fantastisko devumu ebreju tautas glābšanā - Lipke cilvēkiem devis iespēju dzīvot. Viņa piemineklis memoriālā vēstī par dzīvību, bet sinagogas drupas - par nāvi, un šie pretstati līdzinās politiskajām cīņām.
+
+<p>Memoriāls ir pieejams ikvienam un ir no apkārtnes un apkaimes vēstures neatdalāms objekts. Ikdienā tajā atrodas vien daži vietējie cilvēki, kas sēdot uz soliņiem risina savas sarunas. Apkaimes iedzīvotājs stāsta: “Zinu vien, ka sievas vectēvam ir bijusi kāda saistība ar šo vietu, bet to nevarēšu precīzi atstāstīt.” Par līdzīgu personīgu sasaisti ar sinagogu stāsta arī rabīns. Šeit bojāgājušo vārdus mēs nekad neuzzināsim, jo dokumentālas liecības par to klusē. Atgādinot, ka dzīve iet uz priekšu, rabīns rosina padomāt - kā rīkoties, lai šādi noziegumi vairs nekad neatkārtotos?
+
+</section>
+<section data-lang="ru">
+<p>Мемориал, объекты которого напоминают о дихотомии смерти и жизни. Шум автомобилей и имена спасателей евреев здесь звучат громче, чем крики жертв. «Жизнь продолжается» — напоминает местный раввин и предлагает познакомиться с книгами о холокосте евреев в Латвии, что стоят в его кабинете.
+
+</section>
+</article>
+<article data-spot=TheScienceAcademy>
+<section data-lang="lv">
+<p>Atverot ēkas lielās un smagās durvis, pārņem reizē nozīmīguma un niecīguma sajūta. Padomju laika šarms bijušajā kolhoznieku namā jūtams vēl šobaltdien, un, iespējams, vislabāk to var novērot akadēmijas ēdnīcā.
+
+  <p>Zinātņu akadēmija uzņem ne tikai zinātniekus. Kādreiz šeit glabājās Dainu skapis, bet tagad telpas kļuvušas par krāsainu kapitālisma dzītu profesiju rasolu. Akadēmijā strādā grāmatveži, dziednieki, Pasaules enerģijas padome, autoskola, astroloģijas institūts, vēdiskie konsultanti, Latgales mācību centrs, bezdarbnieku atbalsta organizācija, Mākslas vēstures insitūts u.c. Pašā ēkas virsotnē paveras skats uz ne mazāk daudzveidīgo Rīgu, ko pārsvarā gan vēro tūristi un, izņēmuma gadījumā, pa kādam romantiskam pusdienotājam.
+
+</section>
+<section data-lang="ru">
+<p>В Академии наук Латвии, бывшем Доме колхозника, шарм советских времён ощущается и по сей день. В Академии наук приветствуют не только ученых, и это лучше всего подтверждают ежедневные посетители столовой академии. Академия наук предоставляет возможность работы бухгалтерам, редакциям, целителям и учебным центрам. Здесь когда-то хранился „Шкаф дайн”, а теперь это место стало красочной смесью капиталистических профессий.
+
+</section>
+</article>
+<article data-spot=TheRedCrossSocialCenter>
+<section data-lang="lv">
+<p>Dzeltenajā ēkā pie Centrāltirgus patvērumu un atbalstu rod cilvēki ar visdažādākajiem dzīvesstāstiem. Cits nāk pēc siltiem ziemas zābakiem vai pārtikas paciņas, cits izgulēt vakardienas reibumu, vēl kāds saņemt padomu un kādu uzmundrinošu vārdu. Ikdiena šeit ir krāsaina, bet, lai kādu dzīves ceļu ikviens no šejienes iemītniekiem būtu mērojis, visus vieno vēlme būt noderīgiem un pieņemtiem. Sociālā centra darbu var atbalstīt, ziedojot kādu noderīgu lietu – apģērbus, apavus vai sadzīves priekšmetus.
+
+<p>Šajā mājā dzīve ir raiba un negaidītu notikumu pilna. Ik dienu centrā pēc palīdzības un padoma ierodas visdažādākie cilvēki, kuru dzīvē izveidojusies smaga situācija. Darbinieki palīdz nokārtot nepieciešamos dokumentus un meklēt risinājumus dažādām dzīves situācijām. Atnākušie saņem ne tikai praktisku palīdzību, bet arī emocionālu atbalstu – arī draudzīgs sveiciens un piederības sajūta nozīmē daudz. Centrā darbojas arī naktspatversme, kuras iemītnieki strikti sadalīti trīs stāvos – pirmajā iereibušie, augstāk tie, kas skaidrā prātā. Vairums patversmes iemītnieku ir prasmīgi meistari un neatsaka palīdzību ikdienas darbos, piemēram, šo to pielabojot, notīrot sniegu vai pieskatot datortelpu.
+
+<p>Vispamanāmākie no centra klientiem ir bezpajumtnieki, kuri pa vienam vai mazos pulciņos sastopami apkārtnē. Viņu ikdienā liela loma ir blakus esošajam Centrāltirgum, kur var dabūt ko ēdamu un dzeramu, kā arī kādu gadījuma darbiņu.
+
+<p>Sociālā centra darbu var atbalstīt, ziedojot kādu noderīgu lietu – apģērbus, apavus vai sadzīves priekšmetus. Centra darbinieki parūpēsies, lai mantas nonāktu to cilvēku rokās, kam tās visvairāk nepieciešamas.
+
+</section>
+<section data-lang="ru">
+<p>В жёлтом здании около Центрального рынка люди с самыми различными жизненными историями могут найти поддержку и приют. Кто-то приходит сюда за теплыми зимними сапогами или продовольственным пайком. Кто-то — проспаться с похмелья, а кто-то — за советом и добрым словом. Повседневность здесь яркая и, несмотря на то, каков был жизненный путь каждого обитателя этого дома — всех объединяет желание быть полезными и принятыми.
+
+</section>
+</article>
+<article data-spot=HanzaHotel>
+<section data-lang="lv">
+<p>Neliela trīs zvaigžņu viesnīca, kas varbūt atrodas un varbūt neatrodas Maskačkā.
+
+</section>
+<section data-lang="ru">
+<p>(Латвийский) Neliela trīs zvaigžņu viesnīca, kas varbūt atrodas un varbūt neatrodas Maskačkā.
+
+</section>
+</article>
+<article data-spot=TheHummusTeam>
+<section data-lang="lv">
+<p>Nelielajā Elijas ielas pagrabiņā iemitinājusies rosīga jaunatnācēju komanda, kas strādā, lai iepazīstinātu rīdziniekus ar dažādiem Tuvo Austrumu ēdieniem - humusu un citiem gardumiem. Ar savu darbu viņi vēlas vairot izpratni par Tuvo Austrumu kultūru, īpaši ņemot vērā šībrīža satricinājumus šajā reģionā un patvēruma meklētāju ierašanos arī Latvijā.
+
+</section>
+<section data-lang="ru">
+<p>В небольшом подвальном помещении на улице Элияс разместилась команда бойких новичков, цель которых познакомить местных с блюдами ближневосточной кухней — хумусом и прочими лакомствами. Они работают на понимание этой непростой культуры, принимая во внимание события в Сирии и нелегкое существование беженцев в Латвии.
+
+</section>
+</article>
+<article data-spot=GoodwillStudio>
+<section data-lang="lv">
+<p>Šeit mājo īsts spēļu gars un brīvs vairāku valodu sajaukums. Divi draugi un biznesa partneri rada dažādas komandu spēles uzņēmumiem, kas vērstas uz zināšanu un prasmju attīstību. Reizi nedēļā brīvajā laikā viņi uz dažādu galdaspēļu pamata rīko latviešu un angļu sarunvalodas kursus. Sarunu klubu princips ir nojaukt valodas barjeru, bet uz spēlēm sapulcēties var arī tāpat, piemēram, kādā tumšā rudens vakarā.
+</section>
+<section data-lang="ru">
+<p>Здесь витает дух настольных игр и мультилингвальная атмосфера. Двое друзей и партнеров по бизнесу разрабатывают разнообразные игры для корпораций и предприятий, которые направлены на развитие умений и навыков. А в свободное время они организовали разговорные клубы латышского и английского.
+</section>
+</article>
+<article data-spot=TheGhettoMuseum>
+<section data-lang=lv>
+<p>Spīķeros iekārtotais Rīgas geto un Latvijas holokausta muzejs ir brīvi atvērts apmeklētājiem katru dienu, izņemot sabatu. Muzejs šajā apkaimē ir kā vēstures grāmatzīme, kas iezīmē ebreju lielo lomu šīs pilsētas daļas attīstībā, tās vaibstos un sadzīvē. Garāmgājēji no krastmalas puses, iespējams, būs pamanījuši muzeja pagalmā izvietotos kokā veidotos ivrita burtus. “Saka, ka Dievs radīja pasauli, spēlējoties ar burtiem,” ieminas muzeja darbiniece “un katram no tiem ir sava īpaša filozofiska nozīme.” Šalom Rīga!
+
+<p>Muzejā iekārtota bērnu mākslas studija, tiek atvērtas mainīgas izstādes, un no Mazā Kalna ielas pārvestā koka mājiņā apskatāmi Latvijas zudušo sinagogu maketi.
+</section>
+<section data-lang="ru">
+<p>В Спикери расположился музей Рижского гетто и холокоста в Латвии. Он открыт для посетителей каждый день, кроме шаббата. Музей в Ластадии, как историческая закладка, которая отмечает вклад евреев в развитие этой части города. Проходя со стороны набережной, можно заметить деревянные буквы еврейского алфавита. Работница музея рассказала, что Бог создал мир, играя с буквами, и у каждой из них свое особое значение. Шалом, Рига!
+</section>
+</article>
+<article data-spot=TheRiversideGallery>
+<section data-lang="lv">
+<p>Interesants radošais puduris. Te nesen atvērusies “Krasta galerija” ar jaunākajiem Mākslas akadēmijas keramiķu darbiem, blakus durvīs var iepazīt leģendāro Igo ne vien kā mūziķi, bet arī jaunā ampluā - viņa radītā dizaina lietu veikalā “Igo. Akcents personībai”, tālāk atrodas pirotehnikas veikals, bet dziļāk pagalmā - šūšanas cehs un ērģeļu restaurācijas darbnīca.
+
+</section>
+<section data-lang="ru">
+<p>Любопытное творческое гнездо. Недавно здесь открылась «Галерея Краста», где можно увидеть керамические изделия студентов и выпускников Латвий ской академии художеств. За соседней дверью легендарный музыкант Иго предстает в новом амплуа — здесь находится магазин его дизайнерских вещей «Иго. Акцент на личность». Чуть дальше магазин пиротехники, а во дворе — швейный цех и мастерская, где реставрируют оргáны.
+
+</section>
+</article>
+<article data-spot=Spikeri>
+<section data-lang="lv">
+<p>Veidojies kā kvartāls, kam pievienojās no Andrejsalas aizejošās radošās enerģijas.
+Dažu gadu laikā šis sākotnēji maz zināmais kultūrpunkts ir daudz mainījies un attīstijies. Gadsimtu senās spīķeru noliktavas no subkultūru un laikmetīgās mākslas bāzes pārveidojušās par ģimenei draudzīgu vietu ar tirdziņiem, koncertiem un krāsainiem karodziņiem. No pirmā viļņa šeit joprojām mājo kritiskie un laikmetīgie Dirty Deal Teatro uzvedumi.
+
+</section>
+<section data-lang="ru">
+<p>В этот квартал значительная часть творческой энергии пришла из Андрейсалы. В течение всего нескольких лет этот поначалу малоизвестный культурный центр значительно развился и изменился. Древние склады вековой давности из уютного уголка субкультур преобразовались в место для семейного отдыха, где дети и молодёжь могут отдохнуть на благоустроенной площадке, а родители провести время в кафе и салонах. Кроме того, здесь до сих пор обитают критические и современные театральные постановки Dirty Deal Teatro.
+
+</section>
+</article>
+<article data-spot=Banuzis>
+<section data-lang=lv>
+<p>Ienākot jaunajā “Bānūzī”, pretī raugās daļa no Spīķeru biedrības rīkotās apkaimes foto izstādes “Mana Maskavas forštate”. Saimniece savu rajonu un tā cilvēkus pazīst un te jūtas labi. Viņa ir entuziasma pilna organizēt te gan izstādes un radošus vakarus, gan sporta spēļu vērošanu pie alus glāzes.
+Apsveicināties ienākušas arī tuvējās frizētavas darbinieces, kas uz atvadām saimniecei saka: “Vispār šāda vieta apkaimē ir ļoti vajadzīga.”
+
+</section>
+<section data-lang="ru">
+<p>Заходя в новый Bānūzis в глаза сразу бросается фото-выставка «Мой Московский форштадт». Хозяйка знает свой район и людей, которые здесь живут и чувствует себя, как рыба в воде. Она полна энтузиазма, чтобы организовывать здесь выставки, творческие вечера, а также просмотр спортивных матчей за кружкой пива. Встречают посетителей и работницы парикмахерских, которые за спиной хозяйки говорят: «Это место необходимо нашему району».
+
+</section>
+</article>
+<article data-spot=TheBookShopsJanusAndGora>
+<section data-lang="lv">
+<p>Uz veikaliem nedodas ekskursijās, vismaz nevajadzētu, bet Jēzusbaznīcas ielas 7/9 klusais iekšpagalms varētu būt izņēmums. Šeit trijos stāvos veiksmīgi maskējies atrodas lielveikals. Nē, nevis tas skaļais un garlaicīgais. Cits. Te ir Gora, kas adresi dala ar neparastu grāmatnīcu Janus. Tajā var pavadīt pat pusi dienas, iepazīstoties ar jaunāko krievu literatūru vai savu nākamā gada horoskopu. Pārdevējas šajā veikalā dažkārt ieņem gluži vai psihologa lomu, lai palīdzētu cilvēkiem atrast to, ko viņi meklē.
+
+<p>Neliela koka māja ar norādi “Janus” liek domāt, ka tas ir mazs grāmatu veikaliņš, bet patiesībā tas ir veikalu komplekss trīs stāvos. Tajā ne tikai izplata un tirgo grāmatas, bet arī citas ikdienā noderīgas un vienkārši interesantas preces. Runājot ar cilvēkiem šķiet, ka veikals dzīvo savu dzīvi un tam nav būtiska atrašanās vieta. Kāds nāk pēc palīdzības, kāds atnāk pavadīt savu brīvo laiku, bet cits meklē kā papildināt savas zināšanas. Cik dažādas preces, tik dažādi cilvēki un iespējas. Tā var šķist kā noslēgta, klusa un mazliet maģiska vietiņa tik pat klusā un noslēgtā rajonā. Taču katra pārdevēja atzīs, ka ne jau grāmatnīcai tik ļoti vajadzīgi cilvēki, kā pašiem cilvēkiem šī grāmatnīca.
+
+</section>
+<section data-lang="ru">
+<p>В магазины не водят экскурсии, да и зачем бы это понадобилось? Но тихий внутренний дворик на улице Йезусбазницас 7/9 мог бы стать исключением. Здесь находится, хорошо замаскированный, трехэтажный магазин. Нет, вовсе не шумный и скучный. Здесь Gora, что делит адрес с необычным книжным Janus. В нём можно провести чуть ли не полдня, знакомясь с новинками русской литературы или гороскопом на следующий год. Продавцы в этом магазине порой принимают роль психолога, помогая людям найти то, что они ищут.
+
+</section>
+</article>
+<article data-spot=TheAbrenesStreetBusStation>
+<section data-lang="lv">
+<p>Uz pieturvietu būdiņu sienām izvietotā brīvdabas mākslas galerija “Satikšanās” paslīd garām braucēju uzmanībai un nespēj iztraucēt to meditatīvo vientulību.
+
+  <p>Ap galapunktu tuvāk dzelzsceļa sliedēm ir vairākas kāpnītes, kur manāma dabas neatlaidīgā cīņa ar dzelzsbetonu. Tās iecienījuši cilvēki, kas meklē mierīgu un vietulīgu vietu, kur netraucēti pabūt ar savām domām. Uz šīm kāpnītēm satiktais Sergejs, malkojot alu, pastāstīja, ka “patīk šejienes urbānais peizāžs”, kā arī paveras skats uz Rīgas pilsētas Vidzemes priekšpilsētas tiesas namu, kur daudz viņa draugi iesēdušies, kā arī iznākuši ārā, un šeit viņš var mierīgi padomāt par viņiem. Pats vairs jau gadus 15 nedzīvo šājā apkaimē, tikai atbrauc atmiņās pagremdēties.
+
+<p>Šķietami nebeidzamas autobusu rindas, cilvēku un transportu nepārtraukta plūsma, šoferīši, kuri dodas atputā, velkot dūmu no cigaretes vai raitā solī steidz atpakaļ pie stūres, lērums dažādu un krāšņu pašažieru, kas iekāpj vai izkāpj – šāda ainava paveras Abrenes ielas autobusu galapunktā. Par spīti spraigajai burzmai, šī vieta atstāj vientulīgu iespaidu. Pat ja visus cilvēkus šī telpa vieno kā pieturas punkts, sākums vai noslēgums ikdienas ceļā, katrs šeit ir pats par sevi. Pietura ir plaša un cilvēki labprāt izmanto telpu, lai noslēgtos un ieturētu distanci cits no cita. Šī vieta ir kā pauze cilvēka ikdienas dinamikā, kā starpposms starp nokļūšanu no viena punkta uz nākamo.
+
+<p>Tieši vecāka gadu gājuma Centrāltirgus apmeklētāji ir iecienījuši Abrenes ielas galapunktu kā stratēģiski izdevīgu pieturu, ar kuru iespējams izvairīties no bariem, kas stumdās pieturā pie tirgus. Iekāpjot pieturu pirms galapunkta un braucot līdz Abrenes ielai, ir iespēja garantēt, ka mājupceļā nebūs jāstāv kājās ar iepirkumu maisiņiem. Savukārt jaunieši izbauda, ka Abrenes ielas galapunktā ir pietiekami plaši, lai varētu izvēlēties savu stūrīti nost no citiem cilvēkiem, kur justies netraucēti. Tajā pašā laikā laužu plūsma ļauj justies drošāk nekā vientuļākās pieturās.
+
+<p>Šī vieta ir kā radīta introvertiem cilvēkiem – vari droši nodoties pārdomām par dzīvi, citi netraucēs un nav nepieciešams justies slikti par to, ka neiesaisties sarunās, jo neviens cits arī nevēlas iesaistīties.
+
+</section>
+<section data-lang="ru">
+<p>Работы художественной галереи «Свидания», которая расположилась на стенах остановок, проносятся мимо внимания пассажиров, не успевая потревожить их медитативное одиночество.
+
+<p>Рядом с конечной - ближе к железнодорожному полотну ведут множество лесенок. Это прекрасно иллюстрирует непрекращающуюся борьбу изменчивой природы с железобетоном. Их (лесенки) полюбили люди, которые ищут спокойное место, где можно побыть наедине со своими мыслями. На этих ступеньках и был встречен Сергей, пьющий пиво. Он рассказал, что «ему нравится урбанистический пейзаж», а также вид, который открывается на здание суда Видземского предместья. Здесь сидели многие его друзьям, а также выходили из стен этого здания, так что он может посидеть и спокойно подумать о них.
+</section>
+</article>
+<article data-spot=FireStation>
+<section data-lang="lv">
+<p>Priecīgi par apmeklētājiem, kuriem nekas nedeg, ugunsdzēsēji ir pretimnākoši, laipni un labi jūt cilvēkus.
+
+</section>
+<section data-lang="ru">
+<p>Рады посетителям, у которых ничего не горит, пожарные приветливы, добры и хорошо чувствуют людей.
+</section>
+</article>
+<article data-spot=BelarusEmbassy>
+<section data-lang="lv">
+<p>Ticiet vai ne, bet Lastādijā atrodas arī tiešais portāls uz Baltkrieviju. Līdz ar Baltkrievijas vēstniecību te apmetušās vairākas šīs valsts tirdzniecības pārstāvniecības. Piemēram, Arta-F apavu veikals, kura darbinieki aizgājuši atvaļinājumā uz visu augustu. Vai Baltkrievijas tirdzniecības centrs, kurā var nopirkt vienkāršas, tai pat laikā ērtas mēbeles ar greznām sudraba tekstūrām, “izgatavotas pēc labākajiem padomju standartiem”, skaisti izšūtus (taču šausmīgi dārgus) halātus, kosmētiku vai krāsainas spilvendrānas.
+
+</section>
+<section data-lang="ru">
+<p>(Латвийский) Ticiet vai ne, bet Lastādijā atrodas arī tiešais portāls uz Baltkrieviju. Līdz ar Baltkrievijas vēstniecību te apmetušās vairākas šīs valsts tirdzniecības pārstāvniecības. Piemēram, Arta-F apavu veikals, kura darbinieki aizgājuši atvaļinājumā uz visu augustu. Vai Baltkrievijas tirdzniecības centrs, kurā var nopirkt vienkāršas, tai pat laikā ērtas mēbeles ar greznām sudraba tekstūrām, “izgatavotas pēc labākajiem padomju standartiem”, skaisti izšūtus (taču šausmīgi dārgus) halātus, kosmētiku vai krāsainas spilvendrānas.
+</section>
+</article>
+<article data-spot=Stadions>
+<section data-lang="lv">
+<p>Pareizāk sakot, “stadioni” ir divi - pa vienam apaļam, uzbrauktuves ieskautam zālienam katrā Salu tilta pusē. Stadionus tā dēvē lielo lampu dēļ, kas līdzīgas tām, ar kādām apgaismo arī futbola mačus. Zālē redzamas iestaigātas taciņas. Cilvēki te ved staidzināt suņus, tomēr pārsvarā izmanto šo vietu, lai pārvietotos tai cauri, nevis uzkavētos. Pārsteidzoši, bet stadiona vidū augošo bērzu puduris un viegli hipnotizējošās apkārtbraucošās automašīnas piešķir vietai īpatnēji mierīgu noskaņu.
+
+</section>
+<section data-lang="ru">
+<p>(Латвийский) Pareizāk sakot, “stadioni” ir divi - pa vienam apaļam, uzbrauktuves ieskautam zālienam katrā Salu tilta pusē. Stadionus tā dēvē lielo lampu dēļ, kas līdzīgas tām, ar kādām apgaismo arī futbola mačus. Zālē redzamas iestaigātas taciņas. Cilvēki te ved staidzināt suņus, tomēr pārsvarā izmanto šo vietu, lai pārvietotos tai cauri, nevis uzkavētos. Pārsteidzoši, bet stadiona vidū augošo bērzu puduris un viegli hipnotizējošās apkārtbraucošās automašīnas piešķir vietai īpatnēji mierīgu noskaņu.
+</section>
+</article>
+</div>
+
+<script src=https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js></script>
+<script src=index.js></script>
