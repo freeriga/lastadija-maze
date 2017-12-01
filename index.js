@@ -571,6 +571,7 @@ var currentSpot
 
 function goTo (k) {
   currentSpot = k
+  location.hash = k
   
   document.querySelector("video").src = (
     "https://d2ayo97fkylvct.cloudfront.net/" +
@@ -609,4 +610,9 @@ document.querySelector("select").onchange = function(x) {
 }
 
 speak("lv")
-goTo("TheBusStation")
+
+if (location.hash != "") {
+  goTo(location.hash.substr(1))
+} else {
+  goTo("TheBusStation")
+}
