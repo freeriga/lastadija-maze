@@ -153,7 +153,7 @@ var spots = {
     gps: [56.93980, 24.12587],
   },
   CafeRosemary: {
-    id: "617d3be54a49c0159967d14e8e4cf7ed9d5aaddd8394ac24c32f2dbac17aa167",
+    id: "146197ac1d66f1612b2e3d72c3541f5804c82b3cee0f29fd2f9ce9f50909fd75",
     gps: [56.93980, 24.12587],
   },
   DagdasStreet: {
