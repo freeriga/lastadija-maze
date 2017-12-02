@@ -569,6 +569,17 @@ function speak (k) {
 
 var currentSpot
 
+var $video = document.querySelector("video")
+
+var videoSuffix
+
+if ($video.canPlayType('video/webm; codecs="vp9"'))
+  videoSuffix = "/720p-vp9/clip.webm"
+else if ($video.canPlayType('video/mp4; codecs="avc1.42E01E"'))
+  videoSuffix = "/720p-h264/clip.mp4"
+else
+  alert("Sorry, video not supported! Try using Firefox or Chrome.")
+
 function goTo (k) {
   currentSpot = k
   location.hash = k
@@ -576,7 +587,7 @@ function goTo (k) {
   document.querySelector("video").src = (
     "https://d2ayo97fkylvct.cloudfront.net/" +
       spots[k].id +
-      "/720p-vp9/clip.webm"
+      videoSuffix
   )
 
   document.querySelector("h1").innerText = spots[k][lang]
